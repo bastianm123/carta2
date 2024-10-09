@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Feliz Cumpleaños</title>
+</head>
+
+<body>
+  <!-- Audio de fondo -->
+  <audio id="background-audio" src="audio.mp3" autoplay loop></audio>
+  <div class="initial-screen">
+    <h1>¡Feliz Cumpleaños Mi Amor!</h1>
+    <img class="birthday-gif" src="gif1.gif" alt="Feliz Cumpleaños GIF">
+    <button id="startButton" class="btn-start">Comenzar</button>
+  </div>
+
+  <div class="presentation hidden">
+    <div class="card">
+      <div class="image-sequence" id="imageSequence"></div>
+      <div id="imageText"></div>
+      <button id="nextButton" class="btn-sig">Siguiente</button>
+    </div>
+  </div>
+
+  <main class="hidden">
+    <div class="container-letter">
+      <div class="envelope">
+        <h2>✉️</h2> <!-- Emoji de sobre cerrado -->
+      </div>
+      <button id="open" class="carta">Abrir Carta</button>
+      <div class="paper hidden">
+
+        <h2>¡Feliz Cumpleaños!</h2>
+        <p>Mi amor ya estas muy grande, estoy muy orgulloso de ti y todo lo que has logrado, eres la mejor polola del
+          mundo, preciosa, hermosa , guapa y todooo, te juro que me encantas
+          demasiado solo quiero seguir acompañandote en todos tus cumpleaños, eres lo mas importante que tengo en mi
+          vida y me hace muy feliz que me escogas para poder seguir acompañandote
+          Felicidades mi amor, muy feliz cumpleaños, espero que este dia sea muy hermoso para ti, prometo hacer todo lo
+          posible, mañana te dare tu regalo wawa y todo lo que te mereces.</p>
+        <h1>Te amo!</h1>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
